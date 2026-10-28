@@ -1,0 +1,17 @@
+# Хөрвүүлсэн файлууд (make-ээр дахин үүснэ)
+pc
+tests/test_buffer
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# UI-аас "Лог хадгалах"-аар үүссэн түр лог (tests/logs/ нь хадгалагдана)
+tests/run_*.jsonl
+
+# Засварлагч, систем
+.vscode/
+.idea/
+*.swp
+.DS_Store
