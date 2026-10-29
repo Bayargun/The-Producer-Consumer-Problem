@@ -1,8 +1,8 @@
 # The Producer–Consumer Problem
 
 **F.CSM302 Үйлдлийн систем · Бие даалт 1 · Сэдэв 12**
-**Баг:** `<IV-2-12>`
-**Гишүүд:** `<B222270085>`, `<B21091086>`, `<B231940071>`, `<B241940069>`,`<B242270012>`,`<B242270505>`
+**Баг:** IV-2-12
+**Гишүүд:** B222270085, B21091086, B231940071, B241940069,B242270012,B242270505
 
 _Operating System Concepts_ (Silberschatz, Galvin, Gagne, 10th ed., 2018), Chapter 7, Programming Project 4-ийн хэрэгжүүлэлт: **хязгаарлагдмал буфер (bounded buffer)**-ийг семафор ба mutex-ээр синхрончилж, producer/consumer thread-үүдийн ажиллагааг бодит цагийн UI-аар харуулна.
 
@@ -18,7 +18,7 @@ Linux (Ubuntu 22.04+ дээр туршсан):
 
 ```bash
 sudo apt install build-essential python3 python3-tk   # нэг удаа
-git clone <REPO_URL>
+git clone https://github.com/Bayargun/The-Producer-Consumer-Problem.git
 cd The-Producer-Consumer-Problem
 make            # ./pc үүснэ
 make run        # номын жишээ: ./pc 10 2 3

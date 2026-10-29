@@ -15,3 +15,4 @@ tests/run_*.jsonl
 .idea/
 *.swp
 .DS_Store
+/test_buffer

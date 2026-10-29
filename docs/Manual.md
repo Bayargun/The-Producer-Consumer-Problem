@@ -28,7 +28,7 @@ sudo apt install build-essential python3 python3-tk git
 ## 2. Татах ба хөрвүүлэх
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/Bayargun/The-Producer-Consumer-Problem.git
 cd The-Producer-Consumer-Problem
 make
 ```
@@ -82,7 +82,7 @@ consumer 2 consumed 276671478
 make ui          # эсвэл: python3 src/gui.py
 ```
 
-![UI ерөнхий харагдах байдал](images/ui_overview.png)
+![UI ерөнхий харагдах байдал](images/pass.png)
 
 ### 4.1 Тохиргоо (зүүн хэсэг)
 
